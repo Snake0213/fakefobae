@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 
 		const params = new URLSearchParams({ category, title, subtitle });
-		const url = `../pages/result.html?${params.toString()}`;
+		const url = `fakefobae/pages/result.html?${params.toString()}`;
 		window.open(url, '_blank');
 	});
 });
